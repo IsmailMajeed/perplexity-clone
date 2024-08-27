@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  @apply bg-secondaryBg selection:bg-btnClrActive selection:text-btnClr;
+}
+
+h1 {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+  @apply max-md:text-2xl;
+}
