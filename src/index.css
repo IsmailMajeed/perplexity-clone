@@ -14,3 +14,20 @@ h1 {
   letter-spacing: 0.2rem;
   @apply max-md:text-2xl;
 }
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+/* ::-webkit-scrollbar-track {
+  @apply bg-secondary;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary;
+  border-radius: 20px 0 0 20px;
+  border-right: .1rem solid transparent;
+  background-clip: content-box;
+} */
