@@ -254,7 +254,7 @@ export default function QueryForm({
           </div>
         </div>
       </div>
-      <div className="sm:absolute left-0 right-0 z-10 bg-primaryBg">
+      <div className="absolute left-0 right-0 z-10 bg-primaryBg">
         {
           show && (
             <div className={`min-w-20 flex flex-col gap-1 sm:w-full max-h-60 overflow-scroll border-2 border-imgBg rounded-b-md`}>
