@@ -10,7 +10,7 @@ export default function Layout() {
   const [showMenu, setShowMenu] = useState(true);
 
   return (
-    <div className="flex h-screen transition-all">
+    <div className="flex h-svh transition-all">
       <PrimaryMenu showMenu={showMenu} setShowMenu={setShowMenu} />
       <SecondaryMenu showMenu={showMenu} setShowMenu={setShowMenu} />
 
